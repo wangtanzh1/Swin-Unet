@@ -30,7 +30,6 @@ To train the Swin-ResViT model, run train.py. Note on Reproducibility: We set a 
 Basic Usage:
 python train.py --train_img_dir ./dataset/MR2cine/train \
                 --mr_img_dir ./dataset/MR2cine/MR \
-                --seed 777 \
                 --batch_size 24 \
                 --n_epochs 150 \
                 --gpu_id 0
